@@ -2,89 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sherasa Workspace</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <style>
-    body { font-family: 'Segoe UI', sans-serif; }
-    header img { max-height: 80px; }
-    .gallery img { width: 100%; height: auto; border-radius: 10px; margin-bottom: 15px; }
-    nav a { color: white !important; margin: 0 10px; }
-  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+
+  <!-- HEADER / NAV -->
+  <nav class="navbar navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Sherasa Workspace</a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="LOGO%20Sherasa%20PNG%20(1).png" alt="Sherasa Logo" height="40" class="me-2">
+        <strong>Sherasa Workspace</strong>
+      </a>
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="bg-danger text-white text-center py-4">
-    <img src="LOGO Sherasa PNG (1).png" alt="Sherasa Logo" />
-    <h1 class="mt-3">Sherasa Workspace</h1>
-    <p class="lead">Intimate, Focused, Office Experience in the Heart of Jakarta</p>
+  <!-- HERO -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-5">Private Office. Professional Feel.</h1>
+      <p class="lead">Your focused & intimate workspace in the heart of Jakarta.</p>
+      <a href="https://wa.me/6281282596104" class="btn btn-success btn-lg mt-3">Book via WhatsApp</a>
+    </div>
   </header>
 
-  <!-- Gallery -->
-  <section class="container my-5" id="gallery">
-    <h2 class="text-center mb-4">Our Office</h2>
-    <div class="row gallery">
-      <div class="col-md-4"><img src="Office 2.jpeg" alt="Office Room 1" /></div>
-      <div class="col-md-4"><img src="Office 3.jpeg" alt="Office Room 2" /></div>
-      <div class="col-md-4"><img src="Office 4.jpeg" alt="Office Room 3" /></div>
-      <div class="col-md-4"><img src="Office 5.jpeg" alt="Reception" /></div>
-      <div class="col-md-4"><img src="Office 6.jpeg" alt="Meeting Area" /></div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section class="container my-5" id="services">
-    <h2 class="text-center mb-4">Our Services</h2>
-    <div class="row g-4">
-      <div class="col-md-4"><div class="card h-100"><div class="card-body"><h5>Hot Desk</h5><p>Rp75.000 / day</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body"><h5>Meeting Rooms</h5><p>Up to 10–15 pax — Rp100.000 / hour</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body"><h5>Virtual Office</h5><p>From Rp350.000 / month</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body"><h5>Coffee Break</h5><p>Rp25.000 / pax</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body"><h5>Lunch Buffet</h5><p>Rp65.000 / pax</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body"><h5>Dinner Buffet</h5><p>Rp75.000 / pax</p></div></div></div>
-    </div>
-  </section>
-
-  <!-- Booking -->
-  <section class="bg-light py-5 text-center">
-    <h3>Ready to Book?</h3>
-    <p>Contact us on WhatsApp</p>
-    <a href="https://wa.me/6281282596104" class="btn btn-danger btn-lg">Book Now – 0812 8259 6104</a>
-  </section>
-
-  <!-- Contact -->
-  <section class="container py-5" id="contact">
-    <h3 class="text-center mb-4">Contact & Location</h3>
-    <div class="row">
-      <div class="col-md-6">
-        <h5>Address</h5>
-        <p>The Boulevard Office Unit B1-9th.fl,<br>Jalan Fachrudin Raya No. 5,<br>Jakarta Pusat, Jakarta 10250</p>
-        <h5>Email</h5>
-        <p><a href="mailto:sherasa@sherasaintegritas.id">sherasa@sherasaintegritas.id</a></p>
-      </div>
-      <div class="col-md-6">
-        <iframe src="https://www.google.com/maps?q=The+Boulevard+Office+Jakarta+Pusat&output=embed" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <!-- IMAGE GALLERY -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Space</h2>
+      <div class="row g-3">
+        <div class="col-md-4"><img src="Office%202.jpeg" class="img-fluid rounded" alt="Office 2" /></div>
+        <div class="col-md-4"><img src="Office%203.jpeg" class="img-fluid rounded" alt="Office 3" /></div>
+        <div class="col-md-4"><img src="Office%204.jpeg" class="img-fluid rounded" alt="Office 4" /></div>
+        <div class="col-md-6"><img src="Office%205.jpeg" class="img-fluid rounded" alt="Office 5" /></div>
+        <div class="col-md-6"><img src="Office%206.jpeg" class="img-fluid rounded" alt="Office 6" /></div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-danger text-white text-center py-3">
-    <p>© 2025 Sherasa Workspace • @SherasaWorkspace</p>
+  <!-- CONTACT SECTION -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Address</h5>
+          <p>The Boulevard Office Unit B1-9th.fl,<br>Jalan Fachrudin Raya No. 5, Jakarta Pusat 10250</p>
+          <h5>Email</h5>
+          <p><a href="mailto:sherasa@sherasaintegritas.id">sherasa@sherasaintegritas.id</a></p>
+          <h5>WhatsApp</h5>
+          <p><a href="https://wa.me/6281282596104" target="_blank">+62 812-8259-6104</a></p>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Sherasa Workspace. All rights reserved.</p>
+    </div>
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+ 
